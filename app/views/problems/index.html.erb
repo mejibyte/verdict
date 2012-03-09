@@ -1,1 +1,20 @@
-Problems will be here.
+<h2>Available Problems</h2>
+<table>
+  <tr>
+    <th scope="col">Number</th>
+    <th scope="col">Title</th>
+    <th scope="col">Statement</th>
+    <th scope="col">Submit</th>
+    <th scope="col">Verdict</th>
+  </tr>
+  
+  <% @problems.each do |problem| %>
+    <tr class="<%= cycle 'odd', 'even' %>">
+      <td><%= problem.id %></td>
+      <td><%= problem.title %></td>
+      <td><%= link_to "Problem statement", problem %></td>
+      <td><%= link_to "Submit solution", problem %></td>
+      <td>Not tried</td>
+    </tr>
+  <% end %>
+</table>

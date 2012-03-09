@@ -153,25 +153,25 @@ a:active
 
 /* results.php */
 
-table.r {
+table {
   margin: auto;
   border: 1px solid #999999;  
   border-collapse: collapse;
 }
 
-table td.v {
+table td.left {
   padding: 2px 5px;
   text-align: left;
   border: 1px solid #cccccc;
 }
 
-table th.r, table td.r {
+table th, table td {
   padding: 2px 5px;
   text-align: center;
   border: 1px solid #cccccc;
 }
 
-table th.r {
+table th {
   color: inherit;
   background-color: #e8e8e8;
 }
