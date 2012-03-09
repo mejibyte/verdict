@@ -1,0 +1,21 @@
+#flash_alert, #flash_notice, #flash_error {
+   text-align: center;
+   width: 500px;
+   margin: 10px auto;
+   padding: 5px 8px;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.center {
+   text-align: center;
+   margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+<div class="menu">
+    <table width="100%" style="border: none;">
+    <tr>
+    <td style="vertical-align: top; border: none; word-spacing: 0.2em;">
+      <%= link_to "Problems", problems_path %>
+      <%= link_to "Submissions", problems_path %>
+      <%= link_to "Contests", problems_path %>
+      <%= link_to "Users", problems_path %>
+    </td>
+    <td style="text-align: right; vertical-align: top; border: none;">
+      <% if current_user %>
+        Logged in as <b><%= current_user.username %></b>.
+        <%= link_to "Log out", logout_path %>.
+      <% else %>
+        You re not logged in.<br /> <%= link_to "Sign up", signup_path %> or
+        <%= link_to "log in", login_path %>.
+      <% end %>
+    </td>
+    </tr>
+    </table>
+</div>

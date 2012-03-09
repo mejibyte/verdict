@@ -1,0 +1,344 @@
+body
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #000066;
+  background-color: #ffffff;
+  font-size: 0.8em;
+}
+
+div.main
+{
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
+h2 {
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+/*  display: inline-block;*/
+}
+
+div.logo
+{
+  text-align: center;
+  padding: 5px 0px 15px;
+}
+
+form div.fieldset {
+  border: 1px solid #666666;
+  color: inherit;
+  background-color: #eeeeee;
+  width: 400px;
+  margin: auto;
+}
+
+form fieldset.login {
+  border: none;
+  padding: 5px;
+}
+
+form div.red {
+  clear: left;
+  display: block;
+  padding: 3px 0px;
+}
+
+form div.wrong {
+  color: red;
+  background-color: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+input.file, input.text, select {
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+}
+
+form .inputText, form .inputPassword {
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+  width: 120px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+form .inputText2 {
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+  width: 140px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+form .inputTextSmall {
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+  width: 60px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+form .inputSubmit {
+  display: block;
+  margin: auto;
+  width: 70px;
+}
+
+form .inputSubmit2 {
+  display: block;
+  margin: auto;
+  width: 70px;
+}
+
+
+form .inputMessage {
+    width: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;    
+}
+
+.timer {
+  text-align: center;
+  font-weight: bold;
+}
+
+div.menu {
+  margin-bottom: 0px;
+/*  font-weight:bold;*/
+
+   a {
+      font-weight: bold; text-align: left; vertical-align: top; border: none; word-spacing: 0.2em;
+   }
+}
+
+img.logo {
+  border: 0;
+}
+
+td
+{
+  color: inherit;
+  background-color: inherit;
+}
+
+a:link
+{
+  text-decoration: none;
+  color: #0000cc;
+  background-color: inherit;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: #0000cc;
+  background-color: inherit;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: #0000cc;
+  background-color: inherit;
+}
+
+a:active
+{
+  text-decoration: none;
+  color: #0000cc;
+  background-color: inherit;
+}
+
+/* results.php */
+
+table.r {
+  margin: auto;
+  border: 1px solid #999999;  
+  border-collapse: collapse;
+}
+
+table td.v {
+  padding: 2px 5px;
+  text-align: left;
+  border: 1px solid #cccccc;
+}
+
+table th.r, table td.r {
+  padding: 2px 5px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+table th.r {
+  color: inherit;
+  background-color: #e8e8e8;
+}
+
+table tr.odd {
+  color: inherit;
+  background-color: #f8f8f8;
+}
+
+table tr.even {
+  color: inherit;
+  background-color: #f0f0f0;
+}
+
+table tr.highlight {
+  color: inherit;
+  background-color: #ccffbb;
+}
+table tr.error {
+  color: inherit;
+  background-color: #f8f8f8;
+}
+
+tt {
+  font-size: 1.2em;
+}
+
+
+/* new_message.php */
+
+table.new_message{
+    width:  550px;
+}
+
+textarea.new_message {
+    width:  100%;
+    height: 250px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;    
+    font-size: 1.0em;
+    border: 1px solid #c0c0c0;
+    background-color: #ffffff;    
+    text-decoration:    none;
+}
+
+p.centered {
+  text-align: center;
+/*  display: inline-block;*/
+}
+
+p.right {
+  text-align: right;
+/*  display: inline-block;*/
+}
+
+pre.codebox, .hl-main {
+  border: 1px solid #cccccc;
+  color: black;
+  background-color: #f7f7f7;
+  padding: 10px;
+  font-size: 1.2em;
+  line-height: 110%;
+  font-family: "Courier New", monospace;
+}
+
+div.message {
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.message .title {
+  font-weight: bold;
+  float: left;
+  margin-bottom: 4px;
+}
+
+div.message .fromwhen {
+  float: right;
+}
+
+div.message hr {
+/*  clear: both;*/
+  margin: 0px 0px 10px;
+}
+
+div.report {
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.report .task {
+  display: block;
+}
+
+div.report .score {
+  display: block;
+}
+
+div.report .verdict {
+  text-align: left;
+}
+
+div.report hr {
+/*  clear: both;*/
+  margin: 5px 0px 10px;
+}
+
+div.report table {
+  margin: 0;
+}
+
+form.registration {
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin: auto;
+  width: 450px;
+}
+
+form .registration_error {
+  font-size: 0.8em;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* syntax highlighting */
+
+.hl-mlcomment  { color: green; }
+.hl-comment    { color: green; }
+.hl-prepro     { color: blue; }
+.hl-quotes     { color: gray; }
+.hl-string     { color: gray; }
+.hl-reserved   { color: blue; }
+.hl-types      { color: blue; }
+.hl-types-stl  { color: teal; }
+.hl-identifier { color: black; }
+.hl-brackets   { color: black; }
+.hl-number     { color: #ee0000; }
+.hl-code       { color: black; }
+.hl-common     { color: black; }
+
+.hl-main pre   { display: inline; }
+
+/* za acm */
+
+table th.acmres, table td.acmres {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.acmmemberlist {
+  font-size: 0.8em;
+}
+
+.acmmember {
+  border-bottom: 1px dotted #555555;
+  cursor: help;
+}
+
+td .acmkrivih { color: #555555; }
+
+.acmaccepted     { color: #cc0000; font-weight: bold; }
+.acmwronganswer  { color: #008800; font-weight: bold; }
+.acmruntimeerror { color: #008800; font-weight: bold; }
+.acmcompileerror, td.acmcompileerror a { color: #0088ff; font-weight: bold; }
